@@ -130,10 +130,29 @@ if (BMIMark > BMIJohn) {
     console.log('Johns BMI is Higher than Marks BMI');
 }
 
+const firsTname = 'Jonas';
+const job = 'teacgher';
+const birthyear = 1991;
+const yEar = 2037;
+const jonas = "I'm " + firsTname + ', a ' + (yEar - birthyear) + ' years old ' + job + '.';
+console.log(jonas);
+
+// A template literal has the ability to concatinate  multiple strings and values to a one peace.
+
+const jonasNew = `I'm ${firstName}, a ${yEar - birthyear} year old ${job}!`;
+console.log(jonasNew);
 
 
+// Backtick is on the ~ button "   '   "
 
+console.log ('String with \n\
+multiple \n\
+lines');
+// A string with mutile lines
 
-
+console.log(`sting
+multiple
+lines`);
+// The backtick agin came handy here.
 
 
