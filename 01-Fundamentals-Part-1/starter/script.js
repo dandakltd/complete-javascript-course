@@ -327,3 +327,15 @@ if (23 > 10) {
 
 const me = 'Jonas';
 console.log(`I'm ${2037 - 1991} years old ${me}`)
+
+// Conditional Operator;
+// ? = if statement
+// : = else statement
+const agee = 15;
+agee >= 18 ? console.log('I like to drink wine'):
+console.log('I like to drink water');
+
+const drink = agee >= 18 ? 'wine' : 'water';
+console.log(drink);
+
+// reassigning of variables can be happen above example.
