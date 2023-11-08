@@ -71,7 +71,46 @@ age = 31;  // This is called reassigning or mutated the variable
 // var job = 'programmer';
 // job = 'teacher';  // Never use var
 
-lastname = 'Dilshan';
-console.log(lastname);
+// lastname = 'Dilshan';
+// console.log(lastname);
+
+// An operator will help you to transform values
+const now = 2037;
+const ageJonas = now - 1991;
+const ageSarah = now - 2020;
+console.log(ageJonas, ageSarah);
+
+console.log(ageJonas * 2, ageJonas / 10, 2 ** 3)
+// 2 ** 3 means 2 to the power of 3  = 2 * 2 * 2
+
+const firstName = 'Jonas';
+const lastname = 'perera';
+console.log(firstName + ' ' + lastname);
+
+let x = 10 + 5; //15
+x += 10; // adding another 10 to the x value = 25
+x *= 4; // lates x value times 4 
+x++; // Adding a 1 to the latest x number
+x--; // Substracting 1 from the latest x value
+console.log(x);
+
+
+// Comparison Operators to produce boolean values
+console.log(ageJonas > ageSarah); // This will give whether its true or false >, <, >=, <=
+console.log(ageSarah >= 18);
+// We can do the same actions inside the console aswell because the broswe tab reads everything inside the html including the script.js
+const isfullage = ageSarah >= 18;
+// isfullage variable will be holding a boolean value.
+
+
+console.log(now-1991 > now-2018);
+// the above tasks can be done like this aswell.
+
+
+
+
+
+
+
 
 
