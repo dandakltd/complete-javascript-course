@@ -155,4 +155,33 @@ multiple
 lines`);
 // The backtick agin came handy here.
 
+const aGe = 15;
+const isOldEnough = aGe >= 18;
+
+if (isOldEnough) {
+    console.log('Sarah can start driving license');
+} else {
+    const yearsleft = 18 - age
+    console.log(`Sarah is too young. Wait another ${yearsleft} years`);
+}
+
+// if (){
+
+// } else {
+
+// }
+// This is called a control structure.
+
+
+const birthYear = 2012;
+let century;
+if(birthYear <= 2000) {
+    century = 20;
+} else {
+    century = 21;
+}
+console.log(century)
+// If i define variables inside a control structure i will not be able to console output that instead
+// what i would do is have an empty variable abobve the control structure and assign the values to it inside the control
+// structure.
 
