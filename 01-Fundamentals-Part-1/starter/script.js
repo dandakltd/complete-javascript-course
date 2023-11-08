@@ -105,7 +105,30 @@ const isfullage = ageSarah >= 18;
 
 console.log(now-1991 > now-2018);
 // the above tasks can be done like this aswell.
+const averageAge = ageJonas + ageSarah / 2
+console.log(ageJonas, ageSarah, averageAge);
 
+marksbmi = 28.3;
+johnsbmi = 23.9;
+if (marksbmi > johnsbmi) {
+    console.log('Marks BMI is Higher than Johns BMI');
+} else {
+    console.log('Johns BMI is Higher than Marks BMI');
+}
+
+const massMark = 78;
+const heightMark = 1.69;
+const massJohn = 92;
+const heightJohn = 1.95;
+
+const BMIMark = massMark / heightMark ** 2;
+const BMIJohn = massJohn / (heightJohn * heightJohn);
+console.log(BMIMark, BMIJohn);
+if (BMIMark > BMIJohn) {
+    console.log('Marks BMI is Higher than Johns BMI');
+} else {
+    console.log('Johns BMI is Higher than Marks BMI');
+}
 
 
 
