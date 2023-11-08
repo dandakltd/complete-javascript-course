@@ -312,3 +312,18 @@ switch(day) {
 // We can give values if those values does not pass the code will stop upon breaks if not the code will keep running until it finds a break.
 // Similar to IF else statements. And this does a strict comparison.
 
+// expression is a piece of code that produces a value
+// Eg : 3 + 4 , 1991, true
+
+// statement is a bigger piece of code and doesnt provide a value in it
+
+if (23 > 10) { 
+    const str = '23 is bigger';
+}
+// The whole if is a statement but only the str value is an  expression
+
+// This is importnant to know javascript sometimes relies in these.
+// In Template literals only expressions can be into it.
+
+const me = 'Jonas';
+console.log(`I'm ${2037 - 1991} years old ${me}`)
