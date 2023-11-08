@@ -284,3 +284,31 @@ if (scoreDolphins > scorekoalas) {
 } else if(scoreDolphins === scorekoalas) {
     console.log('Both wins the tropght DRAW');
 }
+
+const day = 'monday';
+switch(day) {
+    case 'monday': // day === 'monday'
+        console.log('Plan course structure');
+        console.log('Go to coding meetup');
+        break; 
+    case 'tuesday':
+        console.log('Prepeare theory videos');
+        break;
+    case 'wednesday':
+    case 'thursday':        // Whatever we wright underneath will add upon for both the days.
+        console.log('Write code examples');
+        break;
+    case 'friday':
+        console.log('Record videos');
+    case 'saturday':
+    case 'sunday':
+        console.log('Enjoy thr weekend :D');
+        break;
+    default:
+        console.log('Not a vaild day!')
+}
+
+// Switches are a useful feature that we can use to do our programming in a structural way.
+// We can give values if those values does not pass the code will stop upon breaks if not the code will keep running until it finds a break.
+// Similar to IF else statements. And this does a strict comparison.
+
