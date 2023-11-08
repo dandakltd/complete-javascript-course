@@ -227,3 +227,23 @@ console.log(Boolean('Jonas'));
 console.log(Boolean({}));
 
 // Any string which is not an empty string is a truthy value.
+
+const agE = 18;
+if(agE === 18) console.log('You just became an adult (strict)');
+if(agE == 18) console.log('You just became an adult (loose)');
+// "===" This is called as the strict eqality operator.
+// "==" Is coersion ('18' == 18 ---> will become true)
+// When comparing things always use the strict eqality operator ===
+
+const favorite = Number (prompt("Wht's your favoritee number?"));
+console.log(favorite);
+console.log(typeof favorite);
+
+if (favorite === 23) { // '23' == 23
+    console.log('Cool! 23 is an mazing num');
+} else if (favorite === 7) {
+    console.log('7 is also a cool number')
+} else {
+    console.log('Number is not 23 or 7')
+}
+if(favorite !== 23) console.log('Why not 23?');
