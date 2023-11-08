@@ -19,3 +19,11 @@ console.log(firstname);
 // variables which will not get changes can only be starting with a uppercase
     // eg : let PI = 3.1415; (it has to be real constant)
 
+// Practice test
+let country = 'USA';
+let continent = 'North America';
+let population = '1.34B';
+
+console.log(country);
+console.log(continent);
+console.log(population);
