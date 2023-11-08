@@ -27,3 +27,27 @@ let population = '1.34B';
 console.log(country);
 console.log(continent);
 console.log(population);
+
+// /* can be used to comment all lines of code /*
+
+true;
+console.log(true)
+let javascriptidFun = true; // A variable name holding a boolean
+console.log(javascriptidFun);
+
+console.log(typeof true); 
+console.log(typeof javascriptidFun);
+console.log(typeof 23);
+console.log(typeof 'Jonas');
+
+javascriptidFun = 'YES!'; // When changing variable names you can simply do like this.
+console.log(javascriptidFun);
+console.log(typeof javascriptidFun);
+
+let year;
+console.log(typeof year);
+
+year = 1991;
+console.log(typeof year);
+
+console.log(typeof null); // This is regarded is called as an error but for legacy reasons they haved typed it as an object.
