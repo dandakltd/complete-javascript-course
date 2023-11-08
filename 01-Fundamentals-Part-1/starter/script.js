@@ -185,3 +185,36 @@ console.log(century)
 // what i would do is have an empty variable abobve the control structure and assign the values to it inside the control
 // structure.
 
+// Type conversion is when we manually convert from one type to another coersion when js automatically converts the type
+
+
+// type coversion
+const inputYear = '1991';
+console.log(Number(inputYear), inputYear);
+console.log(Number(inputYear) + 18);
+
+console.log(Number('Jonas'));
+console.log(typeof NaN)
+
+console.log(String(23));
+console.log(typeof 23) // All this is manually Converting
+
+// In JS we can only convert numbers, strings and booleans only.
+
+
+// type coercion
+console.log('I am ' + 23 + ' years old')
+// when a number is in the middlle of the string like this JS is smart enough to convert the whole 
+// thing into a string. Th "plus" operator will do it.
+console.log('23' + '10' -3);
+// In this case the output will be 2307 as a string value because the plus operator is in the middle,
+// If it was " - " in the middle it will give a number.
+console.log('23' * '2')
+console.log('23' / '2')
+console.log('23' + '2')
+
+let n = '1' + 1;
+n = n -1;
+console.log(n);
+// In this case the answer will be 10.
+
