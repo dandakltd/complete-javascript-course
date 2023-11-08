@@ -218,3 +218,12 @@ n = n -1;
 console.log(n);
 // In this case the answer will be 10.
 
+// falsey values are values that are not exactly false but will become false when we convert them into booleans
+// there are 5 falsey values : 0, '', undefined, null, NaN
+
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean('Jonas'));
+console.log(Boolean({}));
+
+// Any string which is not an empty string is a truthy value.
