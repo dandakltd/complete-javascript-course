@@ -51,3 +51,27 @@ year = 1991;
 console.log(typeof year);
 
 console.log(typeof null); // This is regarded is called as an error but for legacy reasons they haved typed it as an object.
+
+let age = 30;
+age = 31;  // This is called reassigning or mutated the variable
+
+// Const type pof variables cannot be changed.
+
+// const birthyear = 1991;
+// birthyear = 1990; // const is an immutable variable type
+
+// const job; // When using const we need initioal values cannot leve it undefined
+
+// Eg :
+// birth year can be a const
+// age can be a let
+
+// var should be completely avoided because of legacy reasons, its the old way of defining vars
+
+// var job = 'programmer';
+// job = 'teacher';  // Never use var
+
+lastname = 'Dilshan';
+console.log(lastname);
+
+
