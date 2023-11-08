@@ -235,15 +235,41 @@ if(agE == 18) console.log('You just became an adult (loose)');
 // "==" Is coersion ('18' == 18 ---> will become true)
 // When comparing things always use the strict eqality operator ===
 
-const favorite = Number (prompt("Wht's your favoritee number?"));
-console.log(favorite);
-console.log(typeof favorite);
+// const favorite = Number (prompt("Wht's your favoritee number?"));
+// console.log(favorite);
+// console.log(typeof favorite);
 
-if (favorite === 23) { // '23' == 23
-    console.log('Cool! 23 is an mazing num');
-} else if (favorite === 7) {
-    console.log('7 is also a cool number')
+// if (favorite === 23) { // '23' == 23
+//     console.log('Cool! 23 is an mazing num');
+// } else if (favorite === 7) {
+//     console.log('7 is also a cool number')
+// } else {
+//     console.log('Number is not 23 or 7')
+// }
+// if(favorite !== 23) console.log('Why not 23?');
+
+// Boolean Logic 
+// Uses true or false logics to solve complex problems
+// AND, OR, NOT Operators
+
+// Using truth Tables
+// AND --->  true when all are true
+// OR ---> On of them to be true to be true
+// NOT ----> Opposite (if its true it's gonna be false)
+
+const hasDriversLicense = true; //A
+const hasGoodVision = true; //B
+console.log(hasDriversLicense && hasGoodVision);
+console.log(hasDriversLicense || hasGoodVision); // " ||  means the OR Operator"
+console.log(!hasDriversLicense);
+
+const shouldDrive = hasDriversLicense && hasGoodVision;
+if(shouldDrive) {
+    console.log('sarah is able to drive!');
 } else {
-    console.log('Number is not 23 or 7')
+    console.log('Someone else should drive');
 }
-if(favorite !== 23) console.log('Why not 23?');
+
+const isTired = true; //C
+console.log(hasDriversLicense && hasGoodVision && isTired);
+
