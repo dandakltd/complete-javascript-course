@@ -273,3 +273,14 @@ if(shouldDrive) {
 const isTired = true; //C
 console.log(hasDriversLicense && hasGoodVision && isTired);
 
+const scoreDolphins = (96 + 108 + 89) / 3;
+const scorekoalas = (88 + 91 + 110) / 3;
+console.log(scoreDolphins, scorekoalas);
+
+if (scoreDolphins > scorekoalas) {
+    console.log('Dolphins wins the trophy');
+} else if (scorekoalas > scoreDolphins)  {
+    console.log('Koalas win the trophy');
+} else if(scoreDolphins === scorekoalas) {
+    console.log('Both wins the tropght DRAW');
+}
