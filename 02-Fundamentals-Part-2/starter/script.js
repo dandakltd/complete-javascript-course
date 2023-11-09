@@ -66,3 +66,26 @@ console.log(age1, age2); // This is function expression
 // Function expressions can be better than expressions. (personal preference)
 
 
+// Arrow function is a shorter and a faster way ti write a function.
+
+const Arrow2 = function (birtHYear) {
+    return 2037 - birtHYear;
+}
+
+const Arrow3 = birtHYear => 2037 - birtHYear;
+const age3 = Arrow3(1994);
+console.log(age3);
+
+const yearuntilretirement = (Birthyear, firstName) => {
+    const agE = 2037 - Birthyear;
+    const retirement = 65 - agE;
+    // return retirement;
+    return`${firstName} retires in ${retirement} years`
+}
+
+console.log(yearuntilretirement(2000, 'Dilshan'));
+console.log(yearuntilretirement(1998, 'Bob'));
+
+// If there are multiple params we have to put them inside paranthesis
+
+// "this" keyword is not being used in Arrow functions.
