@@ -31,10 +31,10 @@ logger();
 logger();
 logger();
 //  A function can not only reuse code but it can also recieve and return data aswell.
-function fruitProcessor(apples, oranges) {
-    const juice = `Juice with ${apples} apples and ${oranges} oranges.`;
-    return juice;    
-}
+// function fruitProcessor(apples, oranges) {
+//     const juice = `Juice with ${apples} apples and ${oranges} oranges.`;
+//     return juice;    
+// }
 
 const applejuice = fruitProcessor(5, 0);
 console.log(applejuice);
@@ -89,3 +89,18 @@ console.log(yearuntilretirement(1998, 'Bob'));
 // If there are multiple params we have to put them inside paranthesis
 
 // "this" keyword is not being used in Arrow functions.
+
+function cutFruitpieces(fruit) {
+    return fruit * 3;
+}
+
+
+
+function fruitProcessor(apples, oranges) {
+    const applepieces = cutFruitpieces(apples);
+    const orangepieces = cutFruitpieces(oranges);
+    const juice = `Juice with ${applepieces} apples and ${orangepieces} oranges.`;
+    return juice;    
+}
+
+console.log(fruitProcessor(2, 3));
