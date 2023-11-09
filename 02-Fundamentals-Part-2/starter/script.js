@@ -12,8 +12,37 @@ if (hasDriversLicense) console.log('I can drive :D');
 
 // if i comment out strict mode the error wouldn't come but if i uncomment vice versa
 
-const interface = 'Audio';
-const private = 534;
+// const interface = 'Audio';
+// const private = 534;
 
 // The strict mode sometimes these words like above where JS thinks in the future it will be using 
 // as such words as syntaxes for various functionalities.
+
+
+// The fundemental building blocks of JS is functions
+// A function is a piece of code that we can use over and over again.
+
+function logger() {
+    console.log('My name is Dilshan');
+}
+// This is how you declare(Invoking, running or Calling) a function which has already been coded before.
+logger();
+logger();
+logger();
+logger();
+//  A function can not only reuse code but it can also recieve and return data aswell.
+function fruitProcessor(apples, oranges) {
+    const juice = `Juice with ${apples} apples and ${oranges} oranges.`;
+    return juice;    
+}
+
+const applejuice = fruitProcessor(5, 0);
+console.log(applejuice);
+console.log(fruitProcessor(5, 0));
+
+
+const appleOrangejuice = fruitProcessor(2, 4);
+console.log(appleOrangejuice);
+
+const num = Number('23');
+console.log(num);
