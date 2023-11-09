@@ -46,3 +46,23 @@ console.log(appleOrangejuice);
 
 const num = Number('23');
 console.log(num);
+
+// These are function declartions
+
+function calcAge1(birtHYear) {
+    return 2037 - birtHYear;
+}
+const age1 = calcAge1(1991);
+console.log(age1); // This is function Declaration.
+
+const calcAge2 = function (birtHYear) {
+    return 2037 - birtHYear;
+}
+const age2 = calcAge2(1991);
+console.log(age1, age2); // This is function expression
+
+
+// Function declaratinions can be defined before it's being scripted.
+// Function expressions can be better than expressions. (personal preference)
+
+
